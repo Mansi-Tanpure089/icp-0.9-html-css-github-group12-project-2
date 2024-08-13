@@ -114,6 +114,7 @@
 .add-to-cart img{
     width: 18px;
     height: 18px;
+    margin-right: 5px;
 }
 
 /* Products sub page */
@@ -127,6 +128,7 @@
 .image-div{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 80px 30px 30px 100px;
     height: 500px ;
     width: 500px;
@@ -184,9 +186,11 @@
     font-size: 20px;
 }
 .value{
-    padding: 0px 20px;
+    margin-left: 20px;
+    padding: 0px 10px;
     font-size: 15px;
     color: #6b6b6b;
+    background-color: rgba(107, 107, 107, 0.1);
 }
 .buy{
     width: 700px;
@@ -200,6 +204,7 @@
     color: #078080;
     font-size: 18px;
     font-weight: 600;
+    background-color: rgba(7, 128, 128, 0.2);
 }
 .cart{
     width: 30%;
@@ -209,7 +214,7 @@
     margin-top: 20px;
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(107, 107, 107, 0.1);
     border: none;
 }
 .vegetarian img{
@@ -219,4 +224,17 @@
 }
 .desc-container{
     margin: 30px 100px;
+}
+.desc-container h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.desc-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.more-desc{
+    margin-top: 5px;
+    font-size: 15px;
 }
