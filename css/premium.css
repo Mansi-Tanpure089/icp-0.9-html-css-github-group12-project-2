@@ -73,3 +73,29 @@
     margin-left: 20px;
     border-radius: 5px;
 }
+.weight-btn{
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+.weight-btn span{
+    font-size: 13px;
+    color: #6b6b6b;
+}
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0px 10px;
+    font-weight: 600;
+    background-color: #078080;
+    color: #232323;
+    border: none;
+    border-radius: 5px;
+}
+.add-to-cart img{
+    width: 18px;
+    height: 18px;
+}
