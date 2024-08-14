@@ -1,0 +1,52 @@
+.mansoon-container{
+    background-color:white;
+    height: 250px;
+    width: 1000px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0 0 10px 2px aqua;
+
+
+
+.mansoon-container-card{
+    background-color: aqua;
+    height: 200px;
+    width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px black;
+    padding-bottom: 5px;
+
+}
+
+.text-color{
+    color: white;
+}
+
+.text-size{
+    font-size: 30px;
+}
+
+.btn{
+    
+    background-color: white;
+    margin: 10px auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(3, 31, 3);
+
+}
+
+.shop-img{
+    width: 50px;
+}
+
+.shop-img1{
+    align-items:right;
+}
