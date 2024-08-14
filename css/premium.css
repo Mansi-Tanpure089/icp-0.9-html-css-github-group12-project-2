@@ -16,6 +16,8 @@
 .product-card-container{
    width: 97%;
    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
    background-color: #fffffe;
    margin: 10px 20px;
 }
