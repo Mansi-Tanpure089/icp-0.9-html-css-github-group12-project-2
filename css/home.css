@@ -32,10 +32,15 @@ body{
     height:200px;
     width:200px;
     background-color:#b3ffcc;
-    margin:7px auto;
-    padding:5px;
+    padding :4px;
+    
     border-radius:3px;
 
+ }
+
+ .btn-secondary{
+    display:flex;
+    
  }
  
     
