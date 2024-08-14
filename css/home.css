@@ -1,0 +1,20 @@
+body{
+    background-color: #f8f5f2;
+    color:#33272al;
+    
+}
+
+.header-images{
+    width:400px;
+    height:300px;
+    border-radius:2px;
+    box-shadow: 0 0 5px 6px lightskyblue;
+    text-align: center;
+    
+    
+}
+ .font-style{
+    font-color:#232323;
+    
+ }
+
