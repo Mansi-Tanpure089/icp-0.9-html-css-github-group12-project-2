@@ -1,99 +1,13 @@
-body{
-    background-color: #f8f5f2;
-    color:#33272al;
-    
-}
-
-.font-family{
-    font-style:
-    font-weight:
-    font-family:
-
-
-}
-
-.font-medium{
-    font-style:
-    font-weight:
-    font-family:
-
-
-}
-.font-dark{
-    font-style:
-    font-weight:
-    font-family:
-
-
-}
-
-.bg-light{
-    background-color: #f8f5f2;
-
-}
-
-.bg-primary{
-    background-color: #232323;
-}
-
-.bg-secondary{
-    background-color: #f45d48;
-}
-
-.text-primary{
-    color: #232323;
-} 
-
-.text-secondary{
-    color:  #f45d48;
-}
-
-.text-dark{
-  color:#033030;
-
-}
-
-.text-center{
-    text-align: center;
-    margin:10px auto;
-    padding:5px;
-    
-    
-
-}
-
-.btn{
-    
-}
-
-.btn-primary{
-    background-color:#232323; ;
-}
-
-.btn-secondary{
-    background-color: #f45d48;
-}
-
-.no-underline{
-    text-decoration: none;
-}
-
-.center-items{
-    margin:10px auto;
-    display: block;
-}
-
-
 *{
     margin: 0;
     padding: 0;
 }
-.card-container{
+.main_premium_picks_container{
     background-color: #f8f5f2;
     height: 100vh;
     width: 100%;
 }
-.product-container h1{
+.premium_picks_container h1{
     font-size: 45px;
     text-align: center;
     padding: 40px 10px;
@@ -102,6 +16,8 @@ body{
 .product-card-container{
    width: 97%;
    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
    background-color: #fffffe;
    margin: 10px 20px;
 }
@@ -322,5 +238,5 @@ body{
 }
 .more-desc{
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 17px;
 }
