@@ -1,6 +1,6 @@
 body{
     background-color: #f8f5f2;
-    color:#33272al;
+    color:#33272a;
     
 }
 
@@ -13,8 +13,18 @@ body{
     
     
 }
- .font-style{
-    font-color:#232323;
+ .product-images1{
+    height:300px;
+    width:400px;
+    text-align: center;
+    margin:5px auto;
+    padding :7px;
+    border-radius:5px;
+    box-shadow:0 0 10px 5px lightsalmon;
+}
+
+ 
     
- }
+
+ 
 
