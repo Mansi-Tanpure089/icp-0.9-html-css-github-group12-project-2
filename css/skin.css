@@ -15,11 +15,13 @@
     text-align: center;
     padding: 40px 10px;
     color: #232323;
+
 }
 .product-card-container1
 {
     width: 97%;
     display: flex;
+   
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #fffffe;
