@@ -49,3 +49,18 @@
     border-radius: 5px;
     margin-bottom: 5px;
 }
+.add-to-cart1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0px 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #078080;
+    color: #232323;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
