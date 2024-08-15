@@ -13,3 +13,24 @@ body{
     display:flex;
     justify-content: center;
 }
+.product-img{
+    height:50px;
+
+}
+
+.image-container{
+    background-color:#fffffe;
+    height:180px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.premium{
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:10px;
+    margin:5px auto;
+}
