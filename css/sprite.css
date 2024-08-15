@@ -89,6 +89,8 @@
 }
 .cart{
     width: 30%;
+     background-color:#078080;
+     
 }
 .vegetarian{
     display: flex;
@@ -99,8 +101,8 @@
     border: none;
 }
 .vegetarian img{
-    height: 15px;
-    width: 15px;
+    height: 25px;
+    width: 25px;
     margin-right: 10px;
 }
 .desc-container{
@@ -118,4 +120,15 @@
 .more-desc{
     margin-top: 5px;
     font-size: 17px;
+}
+.img-down
+{
+    display: flex;
+    justify-content: center;
+
+}
+.sp-img
+{
+    margin: 20px;
+    
 }
