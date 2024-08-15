@@ -117,6 +117,7 @@ body{
     border-radius: 5px;
     border: #232323 solid 1px;
 }
+
 .product-card:hover{
     box-shadow: 0px 0px 5px 5px #f3dfd6;
 }
