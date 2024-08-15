@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+/* Premium Picks section style */
 .main_premium_picks_container{
-    background-color: #f8f5f2;
     width: 100%;
+    background-color: #f8f5f2;
 }
 .premium_picks_container h1{
     font-size: 45px;
     text-align: center;
-    padding: 40px 10px;
+    padding: 30px 10px;
     color: #232323;
 }
 .product-card-container{
