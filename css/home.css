@@ -23,6 +23,12 @@ body{
     box-shadow:0 0 10px 5px lightsalmon;
 }
 
+.product-container h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 10px;
+    color: #232323;
+}
  
     
 
