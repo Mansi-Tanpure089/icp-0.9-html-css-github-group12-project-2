@@ -1,3 +1,8 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 .main-skin-care-container1
 {
     background-color:#fffffe;
@@ -34,4 +39,13 @@
     border-radius: 5px;
     border: 1px solid black;
     box-shadow: 0px 0px 5px 5px #f3dfd6;
+}
+.save-amt1
+{
+    margin: 0px 10px;
+    padding: 7px;
+    background-color: #abe5e5;
+    margin-left: 20px;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
