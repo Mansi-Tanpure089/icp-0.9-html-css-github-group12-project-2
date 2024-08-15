@@ -2,10 +2,13 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f8f5f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 .signup-container{
     display: flex;
