@@ -4,7 +4,6 @@
 }
 .main_premium_picks_container{
     background-color: #f8f5f2;
-    height: 100vh;
     width: 100%;
 }
 .premium_picks_container h1{
@@ -198,6 +197,8 @@
 }
 .buy p{
     padding: 10px;
+    margin-top: 10px;
+    height: 23px;
     color: #078080;
     font-size: 18px;
     font-weight: 600;
@@ -205,6 +206,7 @@
 }
 .cart{
     width: 30%;
+    margin: 10px;
 }
 .vegetarian{
     display: flex;
