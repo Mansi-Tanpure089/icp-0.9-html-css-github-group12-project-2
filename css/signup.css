@@ -26,6 +26,7 @@ section{
     align-items: center;
 }
 .form-container h1{
+    padding: 20px 10px;
     font-size: 32px;
     color: #232323;
     text-align: center;
@@ -49,7 +50,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: 10px 18px;
+    margin: 10px 22px;
 }
 .checkbox-container input[type="checkbox"] {
     margin-right: 10px;
@@ -87,7 +88,7 @@ section{
 }
 
 .already-account a {
-    color: #f45d48; /* Link color */
+    color: #f45d48;
     text-decoration: none; 
     font-weight: 600; 
 }
