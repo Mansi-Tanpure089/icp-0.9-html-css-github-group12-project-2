@@ -98,9 +98,62 @@ section{
     color: #f14731;
 }
 
+/* Media Queries for Tablet */
+@media screen and (min-width: 501px) and (max-width: 768px){
+    section{
+        margin-top: 30px;
+    }
+    .signup-container{
+        flex-direction: column;
+        height: 600px;
+        width: 450px;
+    }
+    .signup-img img{
+        display: none;
+    }
+    .input{
+        width: 86%;
+        margin: 7px 20px;
+    }
+    .signup-btn{
+        width: 91%;
+        font-size: 15px;
+    }
+    .already-account {
+        margin: 15px 0px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px){
+    .signup-container{
+        height: 500px;
+        width: 700px;
+    }
+    .signup-img img{
+        height: 500px;
+        width: 350px;
+    }
+    .form-container h1{
+        font-size: 30px;
+    }
+    .input{
+        width: 82%;
+        margin: 10px 20px;
+    }
+    .signup-btn{
+        width: 88%;
+        font-size: 15px;
+    }
+    .already-account {
+        margin: 20px 0px;
+    }
+}
 
 /* Media Queries for Mobile Device */
 @media screen and (max-width: 500px){
+    section{
+        margin-top: 30px;
+    }
     .signup-container{
         flex-direction: column;
         height: 550px;
