@@ -4,27 +4,33 @@ body{
     
 }
 
-.header-images{
-    width:400px;
-    height:300px;
-    border-radius:2px;
-    box-shadow: 0 0 5px 6px lightskyblue;
-    text-align: center;
-    
+.dmart-image{
+    height:500px;
+    Width:95%;
+    border:2px solid  lightgreen;
+}
+.img-div{
+    display:flex;
+    justify-content: center;
+}
+.product-img{
+    height:50px;
+
+}
+
+.image-container{
+    background-color:#fffffe;
+    height:180px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
- .product-images1{
-    height:300px;
-    width:400px;
+.premium{
     text-align: center;
+    text-decoration: none;
+    color:black;
+    padding:10px;
     margin:5px auto;
-    padding :7px;
-    border-radius:5px;
-    box-shadow:0 0 10px 5px lightsalmon;
 }
-
- 
-    
-
- 
-

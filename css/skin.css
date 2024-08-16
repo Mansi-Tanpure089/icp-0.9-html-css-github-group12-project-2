@@ -70,6 +70,16 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.navbar-font-family
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #faddcf;
+}
 
 
 
