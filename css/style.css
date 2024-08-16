@@ -213,13 +213,14 @@ body{
 }
 
 /* Media Queries for Mobile Device */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 768px){
     .premium_picks_container h1{
         font-size: 30px;
         padding: 15px 10px;
     }
     .product-card-container{
         width: 90%;
+        margin: 0px auto;
     }
     .product-card{
         margin: 15px 20px;
@@ -256,6 +257,57 @@ body{
     .add-to-cart{
         width: 90%;
         margin: 20px 10px;
+    }
+    .add-to-cart img{
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* Media Queries for Tablet Device */
+@media screen and (max-width: 1050px){
+    .premium_picks_container h1{
+        font-size: 40px;
+        padding: 15px 10px;
+    }
+    .product-card-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .product-card{
+        width: 250px;
+        height: 330px;
+    }
+    .product-img{
+        height: 90px;
+        margin: 10px;
+    }
+    .veg-icon{
+        position: absolute;
+        right: -50px;
+        top: -5px;
+    }
+    .product-name{
+        font-size: 14px;
+        margin: 10px auto;
+        padding: 0 10px;
+    }
+    .discount-div{
+        margin-top: 10px;
+    }
+    .price-container{
+        font-size: 14px;
+    }
+    .dmart{
+        font-size: 15px;
+    }
+    .save-amt{
+        padding: 7px;
+        font-size: 14px;
+    }
+    .add-to-cart{
+        width: 90%;
+        margin: 20px 10px 10px 10px;
     }
     .add-to-cart img{
         width: 16px;
