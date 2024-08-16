@@ -71,7 +71,7 @@ body{
 .logo-img img{
     height: 60px;
 }
-.menus a{
+.menu-name{
     text-decoration: none;
     margin-right: 25px;
     font-size: 18px;
@@ -79,10 +79,23 @@ body{
     color: #232323;
     font-style: italic;
 }
+.menu-name:hover{
+    color: #f45d48;
+}
 .signin{
     padding: 5px 20px;
     background-color: #f45d48;
     border-radius: 5px;
+    color: #232323;
+}
+.signin:hover{
+    box-shadow: 0px 0px 10px 5px #ea6959;
+    cursor: pointer;
+    color: #232323;
+    background-color: #f45d48;
+}
+.signin a:hover{
+    color: #232323;
 }
 
 /* Card style */
@@ -195,8 +208,159 @@ body{
     border: none;
     border-radius: 5px;
 }
+.add-to-cart:hover{
+    box-shadow: 0px 0px 3px 3px #4cabab;
+}
 .add-to-cart img{
     width: 18px;
     height: 18px;
     margin-right: 5px;
+}
+
+/* Media Queries for Mobile Device */
+@media screen and (max-width: 768px){
+    .navbar{
+        height: 60px;
+    }
+    .logo-img img{
+        height: 50px;
+    }
+    .menu-name{
+        display: none;
+    }
+    .signin{
+        display: block;
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+    .premium_picks_container h1{
+        font-size: 30px;
+        padding: 15px 10px;
+    }
+    .product-card-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .product-card{
+        margin: 15px 20px;
+        width: 230px;
+        height: 310px;
+    }
+    .product-img{
+        height: 90px;
+        margin: 10px;
+    }
+    .veg-icon{
+        position: absolute;
+        right: -50px;
+        top: 3px;
+    }
+    .product-name{
+        font-size: 14px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .discount-div{
+        margin-top: 10px;
+    }
+    .price-container{
+        font-size: 14px;
+    }
+    .dmart{
+        font-size: 15px;
+    }
+    .save-amt{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .add-to-cart{
+        width: 90%;
+        margin: 20px 10px;
+    }
+    .add-to-cart img{
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1300px){
+    .navbar{
+        height: 70px;
+    }
+    .logo-img img{
+        height: 50px;
+    }
+    .signin{
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+    .menu-name{
+        margin-right: 10px;
+        font-size: 14px;
+    }
+}
+
+/* Media Queries for Tablet Device */
+@media screen and (max-width: 1050px){
+    .navbar{
+        height: 60px;
+    }
+    .logo-img img{
+        height: 50px;
+    }
+    .menu-name{
+        display: none;
+    }
+    .signin{
+        display: block;
+        padding: 5px 20px;
+        font-size: 15px;
+    }
+    .premium_picks_container h1{
+        font-size: 40px;
+        padding: 15px 10px;
+    }
+    .product-card-container{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .product-card{
+        width: 250px;
+        height: 330px;
+    }
+    .product-img{
+        height: 90px;
+        margin: 10px;
+    }
+    .veg-icon{
+        position: absolute;
+        right: -50px;
+        top: -5px;
+    }
+    .product-name{
+        font-size: 14px;
+        margin: 10px auto;
+        padding: 0 10px;
+    }
+    .discount-div{
+        margin-top: 10px;
+    }
+    .price-container{
+        font-size: 14px;
+    }
+    .dmart{
+        font-size: 15px;
+    }
+    .save-amt{
+        padding: 7px;
+        font-size: 14px;
+    }
+    .add-to-cart{
+        width: 90%;
+        margin: 20px 10px 10px 10px;
+    }
+    .add-to-cart img{
+        width: 16px;
+        height: 16px;
+    }
 }
