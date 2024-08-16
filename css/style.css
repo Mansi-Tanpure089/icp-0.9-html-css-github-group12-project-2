@@ -211,3 +211,54 @@ body{
     height: 18px;
     margin-right: 5px;
 }
+
+/* Media Queries for Mobile Device */
+@media screen and (max-width: 500px){
+    .premium_picks_container h1{
+        font-size: 30px;
+        padding: 15px 10px;
+    }
+    .product-card-container{
+        width: 90%;
+    }
+    .product-card{
+        margin: 15px 20px;
+        width: 230px;
+        height: 310px;
+    }
+    .product-img{
+        height: 90px;
+        margin: 10px;
+    }
+    .veg-icon{
+        position: absolute;
+        right: -50px;
+        top: 3px;
+    }
+    .product-name{
+        font-size: 14px;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .discount-div{
+        margin-top: 10px;
+    }
+    .price-container{
+        font-size: 14px;
+    }
+    .dmart{
+        font-size: 15px;
+    }
+    .save-amt{
+        padding: 5px;
+        font-size: 14px;
+    }
+    .add-to-cart{
+        width: 90%;
+        margin: 20px 10px;
+    }
+    .add-to-cart img{
+        width: 16px;
+        height: 16px;
+    }
+}
