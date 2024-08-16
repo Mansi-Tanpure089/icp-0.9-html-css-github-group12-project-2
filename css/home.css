@@ -11,15 +11,15 @@ body{
     box-shadow: 0 0 5px 6px lightskyblue;
     text-align: center; 
     justify-content:center;  
-    align-items:center;
-    margin:5px auto;
+    display:flex;
+    margin:0 auto;
     padding:10px;
 }
 
 .img-div{
-    margin:5px auto;
+    
     padding: 10px;
-    justify-content: center;
+    justify-content:flex;
 }
 .premium{
     text-align: center;
