@@ -115,6 +115,9 @@ section{
         height: 600px;
         width: 450px;
     }
+    .signup-container:hover{
+        box-shadow: none;
+    }
     .signup-img img{
         display: none;
     }
@@ -165,6 +168,9 @@ section{
         flex-direction: column;
         height: 550px;
         width: 300px;
+    }
+    .signup-container:hover{
+        box-shadow: none;
     }
     .signup-img img{
         display: none;
