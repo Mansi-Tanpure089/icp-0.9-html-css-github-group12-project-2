@@ -29,8 +29,8 @@ body{
     text-align: center;
     text-decoration: none;
     color:black;
-    padding:10px;
-    margin:5px auto;
+    padding:7px;
+    margin:9px auto;
     display:flex;
     justify-content: center;
     background-color: rgb(236, 211, 177);
@@ -55,10 +55,12 @@ body{
     transition: 0.3s;
  }
 
- .product-card1{
+ .product-img{
     margin: 10px auto;
     padding: 5px;
     background-color:  #f3dfd6;
+    border: 2px solid slategrey;
+    text-align: center;
     
  }
 
