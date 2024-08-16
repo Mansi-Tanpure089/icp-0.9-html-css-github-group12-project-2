@@ -97,3 +97,32 @@ section{
     text-decoration: underline; 
     color: #f14731;
 }
+
+
+/* Media Queries for Mobile Device */
+@media screen and (max-width: 500px){
+    .signup-container{
+        flex-direction: column;
+        height: 550px;
+        width: 300px;
+    }
+    .signup-img img{
+        display: none;
+    }
+    .form-container h1{
+        font-size: 26px;
+    }
+    .input{
+        width: 80%;
+        margin: 7px 20px;
+    }
+    .signup-btn{
+        width: 87%;
+        font-size: 15px;
+    }
+    .already-account {
+        margin: 15px 0px; 
+        font-size: 14px;
+        color: #232323; 
+    }
+}
