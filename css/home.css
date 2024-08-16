@@ -7,13 +7,17 @@ body{
 .dmart-image{
     width:95%;
     height:500px;
-    border-radius:2px solid lightgreen;
-    box-shadow: 0 0 5px 6px lightskyblue;
+    border:5px solid lightgreen;
+    box-shadow: 0 0 5px 6px lightcoral;
     text-align: center; 
     justify-content:center;  
     display:flex;
     margin:0 auto;
-    padding:10px;
+    padding:5px;
+}
+.dmart-image:hover{
+    box-shadow: 0 0 4px 4px lightcoral;
+    tansition:0.3s;
 }
 
 .img-div{
