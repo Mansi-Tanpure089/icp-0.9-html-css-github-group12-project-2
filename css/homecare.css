@@ -4,13 +4,31 @@ body{
     
 }
 
+.header-images{
+    width:400px;
+    height:300px;
+    border-radius:2px;
+    box-shadow: 0 0 5px 6px lightskyblue;
+    text-align: center;
+    
+    
+}
+ .product-images1{
+    height:300px;
+    width:400px;
+    text-align: center;
+    margin:5px auto;
+    padding :7px;
+    border-radius:5px;
+    box-shadow:0 0 10px 5px lightsalmon;
+}
+
 .product-container h1{
     font-size: 45px;
     text-align: center;
     padding: 30px 10px;
     color: #232323;
 }
-
 .product-desc-container{
     background-color: #f8f5f2;
     width: 100%;
@@ -18,3 +36,118 @@ body{
 .product-desc{
     display: flex;
 }
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 30px 30px 100px;
+    height: 500px ;
+    width: 500px;
+    border: #232323 solid 1px;
+}
+.product-img-1{
+    margin: 30px;
+    height: 400px;
+}
+.product-info{
+    margin: 80px 100px 30px 30px;
+}
+.name-of-product{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.ml-gm{
+    font-weight: 200;
+}
+.sub-category{
+    font-size: 16px;
+    font-weight: 600;
+}
+.variant{
+    margin-top: 10px;
+    color: #6b6b6b;
+    font-size: 19px;
+}
+.weight{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border: #078080 solid 1px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #078080;
+    margin-bottom: 25px;
+}
+.price-tag{
+    margin-top: 15px;
+    display: flex;
+    gap: 50px;
+}
+.mrp-price-1{
+    color: #6b6b6b;
+    font-size: 18px;
+}
+.taxes-include{
+    font-size: 15px;
+    color: #6b6b6b;
+}
+.bold-price{
+    font-weight: 600;
+    font-size: 20px;
+}
+.value{
+    margin-left: 20px;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: #6b6b6b;
+    background-color: rgba(107, 107, 107, 0.1);
+}
+.buy{
+    width: 700px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.buy p{
+    padding: 10px;
+    margin-top: 10px;
+    height: 23px;
+    color: #078080;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(7, 128, 128, 0.2);
+}
+.vegetarian{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: rgba(107, 107, 107, 0.1);
+    border: none;
+}
+.vegetarian img{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+.desc-container{
+    margin: 30px 100px;
+}
+.desc-container h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.desc-heading{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.more-desc{
+    margin-top: 5px;
+    font-size: 17px;
+}
+    
+
+ 
