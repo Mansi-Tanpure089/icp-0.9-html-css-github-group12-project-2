@@ -31,8 +31,8 @@ body{
 .nav-text{
     text-decoration: none;
     font-size: 14px;
-    color: #078080;
-    
+    color: black;
+    font-weight: 700;
 
 }
 .sign-in{
