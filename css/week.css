@@ -14,6 +14,38 @@ body{
     margin-top: 50px;
  
 }
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #faddcf;
+    margin-bottom: 50px;
+    
+}
+.nav-img{
+    height: 60px;
+    margin-top: -10px;
+    margin-right: 120PX;
+}
+.nav-text{
+    text-decoration: none;
+    font-size: 14px;
+    color: #078080;
+    
+
+}
+.sign-in{
+    background-color: tomato;
+    color: black;
+    border-radius: 10px;
+    margin-right: 20px;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    border: none;
+}
+
 .cart1{
     height: 300px;
     width: 200px;
