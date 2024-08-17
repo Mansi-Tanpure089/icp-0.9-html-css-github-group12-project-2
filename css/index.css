@@ -56,15 +56,16 @@ body{
  }
 
  .product-img{
-    margin: 10px auto;
-    padding: 5px;
+    margin: 0 auto;
+    padding: 10px;
     background-color:  #f3dfd6;
     border: 2px solid slategrey;
     text-align: center;
+    justify-content:space-evenly;
     
  }
 
- .product-card1:hover{
+ .product-img:hover{
     box-shadow: #f3dfd6;
     transition: 0.3s;
  }
