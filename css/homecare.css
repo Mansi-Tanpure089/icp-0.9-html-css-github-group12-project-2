@@ -3,3 +3,9 @@ body{
     color:#33272a;
     
 }
+h1{
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 10px;
+    color: #232323;
+}
