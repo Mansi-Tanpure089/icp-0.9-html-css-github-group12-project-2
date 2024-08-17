@@ -8,22 +8,23 @@
     width: 100%;
     background-color: #f8f5f2;
 }
-.monsoon_picks_container h1{
-    font-size: 45px;
-    text-align: center;
-    padding: 30px 10px;
-    color: #232323;
-    display: block;
-    margin: 10px auto;
+
+
+.monsoon_picks_container{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+    
 }
+
 .product-card-container{
    width: 97%;
-   
    background-color: #fffffe;
    margin: 10px 20px;
+   display: flex;
+   flex-direction: row;
+
 }
 .product-card{
     margin: 20px 40px;
