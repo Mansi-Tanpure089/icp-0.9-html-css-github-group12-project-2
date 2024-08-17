@@ -151,3 +151,40 @@ body{
     
 
  
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #078080;
+    color: #232323;
+    border: none;
+    border-radius: 5px;
+}
+.add-to-cart img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.cart{
+    width: 30%;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
