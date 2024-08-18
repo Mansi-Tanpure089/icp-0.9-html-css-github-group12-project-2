@@ -80,10 +80,13 @@
      border: 1px solid #25a541;
      cursor: pointer;
      margin-left: 10px;
+     border-radius: 10px;
  }
  .cart:hover
  {
     border-radius: 10px;
+    color: black;
+    
  }
  .main
  {
