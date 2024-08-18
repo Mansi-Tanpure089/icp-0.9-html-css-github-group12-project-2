@@ -69,3 +69,9 @@ body{
     box-shadow: 0px 0px 5px 5px #f3dfd6;
     transition: 0.3s;
  }
+
+ .monsoon-product-img{
+    justify-content: flex;
+    flex-wrap: wrap;
+    align-items: center;
+ }

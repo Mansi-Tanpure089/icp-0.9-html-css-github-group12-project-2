@@ -4,9 +4,9 @@
 }
 
 /* Premium Picks section style */
-.main_premium_picks_container{
+.main_monsoon_picks_container{
     width: 100%;
-    background-color: #f8f5f2;
+    background-color:#f8f5f2;
 }
 
 
@@ -22,15 +22,14 @@
    width: 97%;
    background-color: #fffffe;
    margin: 10px 20px;
-   display: flex;
-   flex-direction: row;
+background-color: #078080;
 
 }
 .product-card{
     margin: 20px 40px;
     width: 250px;
     height: 380px;
-    background-color: #f8f5f2;
+    background-color:#f8f5f2;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -40,7 +39,9 @@
     border: #232323 solid 1px;
 }
 .product-card:hover{
-    box-shadow: 0px 0px 5px 5px #f3dfd6;
+    box-shadow: 0px 0px 5px 5px;
+    background-color:#e6f9ff;
+    cursor: pointer;
 }
 .img-container{
     position: relative;
@@ -113,8 +114,15 @@
     border: none;
     border-radius: 5px;
 }
+
+.add-to-cart:hover{
+cursor: pointer;
+    border: none;
+}
+
 .add-to-cart img{
     width: 18px;
     height: 18px;
     margin-right: 5px;
 }
+
