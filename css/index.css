@@ -35,6 +35,8 @@ body{
     justify-content: center;
     background-color: rgb(236, 211, 177);
     border: 2px solid lightgreen;
+    width:95%;
+    
     
 }
 
@@ -66,12 +68,19 @@ body{
  }
 
  .product-img:hover{
-    box-shadow: 0px 0px 5px 5px #f3dfd6;
+    box-shadow: 0px 0px 5px 5px rgb(150, 239, 239);
     transition: 0.3s;
+    border-radius: 18px;
  }
 
  .monsoon-product-img{
     justify-content: flex;
     flex-wrap: wrap;
     align-items: center;
+ }
+
+ .text-center{
+    align-items:flex-end;
+    margin:10px auto;;
+    padding-bottom: 2px;
  }
