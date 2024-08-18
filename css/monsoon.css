@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Premium Picks section style */
+.main_premium_picks_container{
+    width: 100%;
+    background-color: #f8f5f2;
+}
+
+
+.monsoon_picks_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.product-card-container{
+   width: 97%;
+   background-color: #fffffe;
+   margin: 10px 20px;
+background-color: #078080;
+
+}
+.product-card{
+    margin: 20px 40px;
+    width: 250px;
+    height: 380px;
+    background-color: #f8f5f2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 5px;
+    border: #232323 solid 1px;
+}
+.product-card:hover{
+    box-shadow: 0px 0px 5px 5px #f3dfd6;
+}
+.img-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.product-img{
+    height: 130px;
+    margin: 10px;
+}
+.veg-icon{
+    position: absolute;
+    right: -28px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    z-index: 1;
+}
+.product-name{
+    margin: 10px;
+    color: #232323;
+    font-size: 15px;
+}
+.discount-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.price-with-taxes{
+    display: flex;
+    flex-direction: column;
+}
+.taxes{
+    margin: 5px 10px;
+    color: #6b6b6b;
+    font-size: 13px;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    font-size: 15px;
+}
+.mrp-price{
+    color: #6b6b6b;
+}
+.dmart{
+    font-weight: 600;
+    font-size: 17px;
+}
+.save-amt{
+    margin: 0px 10px;
+    padding: 7px;
+    background-color: #abe5e5;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.add-to-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 10px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #078080;
+    color: #232323;
+    border: none;
+    border-radius: 5px;
+}
+.add-to-cart img{
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}

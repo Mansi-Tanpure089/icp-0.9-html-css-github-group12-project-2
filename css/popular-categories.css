@@ -1,0 +1,105 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.cards {
+           
+    margin-left: 10px; 
+     padding: 10px;
+     height: 360px;
+     width: 250px;
+     border: 2px solid grey;
+     margin-bottom: 30px;
+     background-color:#f8f5f2;
+     box-shadow: 0px 0px 5px 5px #f3dfd6;
+     margin-top: 20px;
+ }
+ .cards:hover{
+    border-radius: 18px;
+    
+ }
+
+ .red-bull-img {
+    
+     height: 150px;
+     text-align: center;
+     margin-left: 42px;
+     margin-bottom: 10px;
+
+ }
+
+ .veg-img {
+     position: relative;
+     left: 10px;
+     bottom: 120px;
+     cursor: pointer;
+ }
+
+ .title{
+     text-align: center;
+     font-size: 17px;
+     margin-bottom: 10px;
+ }
+
+
+ .text {
+     margin-top: 0px;
+     font-size: 15px;
+     margin-bottom: 20px;
+     
+ }
+
+
+ .div1 {
+     
+     height: 50px;
+     width: 50px;
+     margin-left: 10px;
+ }
+
+ .divs {
+     display: flex;
+ }
+
+ .div2{
+     background-color:#e9f6ec ;
+     color:#078080; ;
+     text-align: center;
+     height: 50px;
+     width: 50px;
+     padding: 10px;
+     margin-left: 50px;
+ }
+
+ .cart{
+     background-color:#078080 ;
+     color: white;
+     width: 230px;
+     height: 30px;
+     border: 1px solid #25a541;
+     cursor: pointer;
+     margin-left: 10px;
+     border-radius: 10px;
+ }
+ .cart:hover
+ {
+    border-radius: 10px;
+    color: black;
+    
+ }
+ .main
+ {
+      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+ }
+ .cart-img
+
+ {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+ }
