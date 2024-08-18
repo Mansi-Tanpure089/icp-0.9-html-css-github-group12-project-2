@@ -82,8 +82,7 @@ body{
     padding: 10px;
     background-color:  #f3dfd6;
     border: 2px solid slategrey;
-    text-align: center;
-    justify-content:space-evenly;
+    
     }
 
     .monsoon-product-img:hover{
@@ -101,9 +100,20 @@ body{
  }
 
  .img-product-name{
-    font-size:14px;
+    font-size:25px;
     text-decoration: none;
     color: black;
+
+ }
+
+ .img-product-name:hover{
+    color:cadetblue;
+    box-shadow: brown;
+ }
+
+ .header-section{
+    color:green;
+    margin:auto;
 
  }
  
