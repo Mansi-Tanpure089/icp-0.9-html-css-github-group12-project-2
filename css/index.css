@@ -68,25 +68,43 @@ body{
  }
 
  .product-img:hover{
-    box-shadow: 0px 0px 5px 5px rgb(150, 239, 239);
-    transition: 0.3s;
+    box-shadow: 0px 0px 5px 5px lightcoral;
     border-radius: 18px;
  }
 
  .monsoon-product-img{
-    justify-content:flex ;
-    flex-wrap: wrap;
+     display: flex;
+    justify-content: center;
     align-items: center;
-    margin :2px auto;
-    flex-direction: row;
+    height:250px;
+    width:90%;
+    margin:5px auto;
+    padding: 10px;
+    background-color:  #f3dfd6;
+    border: 2px solid slategrey;
+    text-align: center;
+    justify-content:space-evenly;
+    }
 
-    
- }
+    .monsoon-product-img:hover{
+        box-shadow: 0px 0px 5px 5px lightcoral;
+        border-radius: 18px;
+    }
 
  .text-center{
     align-items:flex-end;
     margin:10px auto;
     padding-bottom: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
  }
 
+ .img-product-name{
+    font-size:14px;
+    text-decoration: none;
+    color: black;
+
+ }
+ 
  

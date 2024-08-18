@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+.font-family{
+    font-family: "Mulish", sans-serif;
+}
 
 /* Premium Picks section style */
 .main_premium_picks_container{
@@ -129,7 +132,7 @@
     align-items: center;
     margin: 80px 30px 30px 100px;
     height: 500px ;
-    width: 500px;
+    width: 450px;
     border: #232323 solid 1px;
 }
 .product-img-1{
