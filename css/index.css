@@ -175,11 +175,14 @@ body{
    padding:20px;
     margin:20px 50px;
     align-items: center;
-    justify-content:space-around;
+    justify-content:center;
     background-color: rgb(236, 211, 177);
     border: 2px solid lightgreen;
+    display:flex;
 
 }
+
+
 
 .product1-img{
    color: lightpink;
