@@ -217,6 +217,7 @@ body{
 }
 
 footer{
+    margin-top: 50px;
     height: 370px;
     width: 100%;
     background-color: #fffffe;
@@ -263,7 +264,7 @@ footer{
 .options li{
     list-style-type: none;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 40px;
 }
 .copyright{
