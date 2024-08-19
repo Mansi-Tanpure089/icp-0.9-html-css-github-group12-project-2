@@ -76,9 +76,9 @@ body{
      display: flex;
     justify-content: center;
     align-items: center;
-    height:250px;
-    width:90%;
-    margin:5px auto;
+    height:230px;
+    width:80%;
+    margin:30px auto;
     padding: 10px;
     background-color:  #f3dfd6;
     border: 2px solid slategrey;
