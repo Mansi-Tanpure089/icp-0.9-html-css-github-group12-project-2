@@ -12,12 +12,12 @@ body{
     text-align: center; 
     justify-content:center;  
     display:flex;
-    margin:0 auto;
+    margin:0 auto 30px auto;
     padding:5px;
 }
 .dmart-image:hover{
     box-shadow: 0 0 4px 4px lightcoral;
-    tansition:0.3s;
+    transition:0.3s;
 }
 
 .img-div{
@@ -100,10 +100,10 @@ body{
  }
 
  .img-product-name{
-    font-size:25px;
+    font-size:18px;
     text-decoration: none;
     color: black;
-
+    font-weight: 800;
  }
 
  .img-product-name:hover{
@@ -114,7 +114,13 @@ body{
  .header-section{
     color:green;
     margin:auto;
-
  }
  
- 
+ .sub-title{
+   font-size: 18px;
+   font-weight: 800;
+   color: green;
+ }
+ .image-container a{
+   text-decoration: none;
+ }

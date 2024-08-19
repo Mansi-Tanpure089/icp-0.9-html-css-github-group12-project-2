@@ -242,3 +242,253 @@
     margin-top: 5px;
     font-size: 17px;
 }
+
+/* Media queries for product's sub page */
+
+/* For Mobile Device */
+@media screen and (max-width: 767px){
+    .product-desc{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-div{
+        margin: 30px auto;
+        height: 250px ;
+        width: 250px;
+    }
+    .product-img-1{
+        margin: 30px;
+        height: 200px;
+    }
+    .product-info{
+        margin: 20px;
+    }
+    .name-of-product{
+        font-size: 18px;
+    }
+    .ml-gm{
+        font-weight: 200;
+    }
+    .sub-category{
+        font-size: 14px;
+    }
+    .variant{
+        font-size: 16px;
+    }
+    .weight{
+        padding: 7px 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .price-tag{
+        gap: 30px;
+    }
+    .mrp-price-1{
+        font-size: 15px;
+    }
+    .taxes-include{
+        font-size: 13px;
+    }
+    .bold-price{
+        font-size: 17px;
+    }
+    .value{
+        display: none;
+    }
+    .buy{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .buy p{
+        padding: 7px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 16px;
+    }
+    .cart{
+        width: 60%;
+        margin: 7px;
+    }
+    .vegetarian{
+        margin-top: 15px;
+        padding: 7px 15px;
+    }
+    .vegetarian img{
+        height: 12px;
+        width: 12px;
+    }
+    .desc-container{
+        margin: 20px;
+    }
+    .desc-container h3{
+        font-size: 17px;
+    }
+    .desc-heading{
+        font-size: 15px;
+    }
+    .more-desc{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+/* For Tablet */
+@media screen and (min-width: 768px) and (max-width: 1000px){
+    .image-div{
+        margin: 40px auto;
+        height: 350px ;
+        width: 250px;
+    }
+    .product-img-1{
+        height: 300px;
+    }
+    .product-info{
+        margin: 50px 30px;
+    }
+    .name-of-product{
+        font-size: 18px;
+    }
+    .ml-gm{
+        font-weight: 200;
+    }
+    .sub-category{
+        font-size: 14px;
+    }
+    .variant{
+        font-size: 16px;
+    }
+    .weight{
+        padding: 7px 25px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .price-tag{
+        gap: 30px;
+    }
+    .mrp-price-1{
+        font-size: 15px;
+    }
+    .taxes-include{
+        font-size: 13px;
+    }
+    .bold-price{
+        font-size: 17px;
+    }
+    .value{
+        display: none;
+    }
+    .buy{
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    .buy p{
+        padding: 7px;
+        margin-top: 10px;
+        height: 20px;
+        font-size: 16px;
+    }
+    .cart{
+        width: 60%;
+        margin: 7px;
+    }
+    .vegetarian{
+        margin-top: 15px;
+        padding: 7px 15px;
+    }
+    .vegetarian img{
+        height: 12px;
+        width: 12px;
+    }
+    .desc-container{
+        margin: 20px 40px;
+    }
+    .desc-container h3{
+        font-size: 18px;
+    }
+    .desc-heading{
+        font-size: 15px;
+    }
+    .more-desc{
+        font-size: 14px;
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1250px){
+    .image-div{
+        margin: 40px 100px 30px 50px;
+        height: 400px ;
+        width: 350px;
+    }
+    .product-img-1{
+        height: 350px;
+    }
+    .product-info{
+        margin: 50px 0px;
+    }
+    .name-of-product{
+        font-size: 20px;
+    }
+    .ml-gm{
+        font-weight: 200;
+    }
+    .sub-category{
+        font-size: 16px;
+    }
+    .variant{
+        font-size: 17px;
+    }
+    .weight{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .price-tag{
+        gap: 40px;
+    }
+    .mrp-price-1{
+        font-size: 16px;
+    }
+    .taxes-include{
+        font-size: 14px;
+    }
+    .bold-price{
+        font-size: 18px;
+    }
+    .buy{
+        width: 100%;
+    }
+    .buy p{
+        padding: 10px;
+        font-size: 18px;
+        margin-right: 50px;
+    }
+    .cart{
+        width: 400px;
+        margin: 10px;
+        padding: 11px;
+        font-size: 17px;
+    }
+    .vegetarian{
+        margin-top: 15px;
+        padding: 10px 20px;
+    }
+    .vegetarian img{
+        height: 15px;
+        width: 15px;
+    }
+    .desc-container{
+        margin: 20px 60px;
+    }
+    .desc-container h3{
+        font-size: 20px;
+    }
+    .desc-heading{
+        font-size: 18px;
+    }
+    .more-desc{
+        font-size: 16px;
+        text-align: justify;
+    }
+}
