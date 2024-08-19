@@ -216,6 +216,63 @@ body{
     margin-right: 5px;
 }
 
+footer{
+    height: 370px;
+    width: 100%;
+    background-color: #fffffe;
+}
+.footer-section{
+    display: flex;
+}
+.app-download{
+    width: 40%;
+    margin: 90px 60px;
+}
+.app-download p{
+    font-size: 15px;
+    color: #232323;
+    margin-bottom: 40px;
+}
+.download-app-btn{
+    display: flex;
+    gap: 30px;
+}
+.download{
+    padding: 7px 20px;
+    background-color: #232323;
+    color: #fffffe;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 5px;
+}
+.download img{
+    width: 18px;
+    height: 18px;
+}
+.options-section{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 80px;
+}
+.options li{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.copyright{
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
 /* Media Queries for Mobile Device */
 @media screen and (max-width: 768px){
     .navbar{
