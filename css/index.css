@@ -124,3 +124,47 @@ body{
  .image-container a{
    text-decoration: none;
  }
+
+ .fruits-div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 30px auto;
+   width: 82%;
+}
+.fruit-img{
+   display: flex;
+   flex-direction: row;
+   margin: 0px auto;
+   height: 250px;
+   width: 100%;
+   gap: 40px;
+}
+.fruit-name{
+   display: flex;
+   justify-content: row;
+   width: 50%;
+   height: 200px;
+   background-color:  #f3dfd6;
+   border: 2px solid slategrey;
+}
+.fruit-name:hover{
+   box-shadow: 0px 0px 5px 5px lightcoral;
+   border-radius: 18px;  
+}
+.fruit-img a{
+   margin: 15px;
+   width: 60%;
+}
+.fruit-name p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+.img{
+   height: 170px;
+}
