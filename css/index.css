@@ -170,7 +170,21 @@ body{
 }
 
 .login-img{
-   heigth:14px;
-   width:20px;
-   
+   heigth:50px;
+   width:70px;
+   padding:20px;
+    margin:20px auto;
+    align-items: center;
+    justify-content:space-around;
+    background-color: rgb(236, 211, 177);
+    border: 2px solid lightgreen;
+
+}
+
+.product1-img{
+   color: lightpink;
+   background-color: aliceblue;
+   height:60px;
+   width:80%;
+   justify-content: center;
 }
