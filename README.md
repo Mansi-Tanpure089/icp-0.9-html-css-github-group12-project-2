@@ -1,9 +1,23 @@
-Fruits shoppi..
-Welcome to fruits shop
+# Welcome to Dmart
+This is project of dmart website .
+This is an basic website & second project of g-12 from RTC.
+The main aim of this website is that, to create a proper webpage with more information and many different products.
 
-This is open-source ** theme project.**.
+This project is done by using the HTML and CSS.
+!
 
-website must visit(https://project-fruit-basket02.netlify.app/) We added various pages in our website are:
+# How it work
+It work with proper design and more than different creativity.
+It also navigate to different pages with proper footer.
+!
 
-items
-Contact Us
+# Pages Included
+premium picks.
+popular categories.
+fruits & vegetable.
+furniture.
+kitchen.
+homecare.
+login .
+week saver.
+monsoon.
