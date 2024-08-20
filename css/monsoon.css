@@ -40,7 +40,6 @@ background-color: #078080;
 }
 .product-card:hover{
     box-shadow: 0px 0px 5px 5px;
-    background-color:#e6f9ff;
     cursor: pointer;
 }
 .img-container{
