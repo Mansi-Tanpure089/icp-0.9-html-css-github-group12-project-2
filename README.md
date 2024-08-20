@@ -11,6 +11,7 @@ It work with proper design and more than different creativity.
 It also navigate to different pages with proper footer.
 !
 
+website must visit(https://project-fruit-basket02.netlify.app/) We added various pages in our website are:
 # Pages Included
 premium picks.
 popular categories.
@@ -21,3 +22,6 @@ homecare.
 login .
 week saver.
 monsoon.
+
+website must visit(https://icp-g-12-project2.netlify.app). 
+Thank you!!
