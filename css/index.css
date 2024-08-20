@@ -12,12 +12,12 @@ body{
     text-align: center; 
     justify-content:center;  
     display:flex;
-    margin:0 auto;
+    margin:0 auto 30px auto;
     padding:5px;
 }
 .dmart-image:hover{
     box-shadow: 0 0 4px 4px lightcoral;
-    tansition:0.3s;
+    transition:0.3s;
 }
 
 .img-div{
@@ -35,6 +35,8 @@ body{
     justify-content: center;
     background-color: rgb(236, 211, 177);
     border: 2px solid lightgreen;
+    width:95%;
+
     
 }
 
@@ -66,12 +68,131 @@ body{
  }
 
  .product-img:hover{
-    box-shadow: 0px 0px 5px 5px #f3dfd6;
-    transition: 0.3s;
+    box-shadow: 0px 0px 5px 5px lightcoral;
+    border-radius: 18px;
  }
 
  .monsoon-product-img{
-    justify-content: flex;
-    flex-wrap: wrap;
+     display: flex;
+    justify-content: center;
     align-items: center;
+    height:230px;
+    width:80%;
+    margin:30px auto;
+    padding: 10px;
+    background-color:  #f3dfd6;
+    border: 2px solid slategrey;
+    
+    }
+
+    .monsoon-product-img:hover{
+        box-shadow: 0px 0px 5px 5px lightcoral;
+        border-radius: 18px;
+    }
+
+ .text-center{
+    align-items:flex-end;
+    margin:10px auto;
+    padding-bottom: 2px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
  }
+
+ .img-product-name{
+    font-size:18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+ }
+
+ .img-product-name:hover{
+    color:cadetblue;
+    box-shadow: brown;
+ }
+
+ .header-section{
+    color:green;
+    margin:auto;
+ }
+ 
+ .sub-title{
+   font-size: 18px;
+   font-weight: 800;
+   color: green;
+ }
+ .image-container a{
+   text-decoration: none;
+ }
+
+ .fruits-div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 30px auto;
+   width: 82%;
+}
+.fruit-img{
+   display: flex;
+   flex-direction: row;
+   margin: 0px auto;
+   height: 250px;
+   width: 100%;
+   gap: 40px;
+}
+.fruit-name{
+   display: flex;
+   justify-content: row;
+   width: 50%;
+   height: 200px;
+   background-color:  #f3dfd6;
+   border: 2px solid slategrey;
+}
+.fruit-name:hover{
+   box-shadow: 0px 0px 5px 5px lightcoral;
+   border-radius: 18px;  
+}
+.fruit-img a{
+   margin: 15px;
+   width: 60%;
+}
+.fruit-name p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 28px;
+   font-weight: 800;
+   text-align: center;
+}
+.img{
+   height: 170px;
+}
+
+.login-img{
+   heigth:50px;
+   width:70px;
+   padding:20px;
+    margin:30px auto;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(236, 211, 177);
+    border: 2px solid lightgreen;
+    display:flex;
+
+}
+.login-img:hover{
+   
+   box-shadow: 0px 0px 5px 5px lightcoral;
+        border-radius: 18px;
+}
+
+
+
+.product1-img{
+   color: lightpink;
+   background-color: aliceblue;
+   height:60px;
+   width:80%;
+   justify-content: center;
+}
