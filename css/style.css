@@ -358,7 +358,7 @@ footer{
 }
 
 /* Media Queries for Tablet Device */
-@media screen and (max-width: 1050px){
+@media screen and (min-width: 769px) and (max-width: 1050px){
     .navbar{
         height: 60px;
     }
