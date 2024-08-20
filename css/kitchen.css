@@ -43,8 +43,8 @@
 }
 .product-card{
     margin: 20px 40px;
-    width: 300px;
-    height: 430px;
+    width: 250px;
+    height: 380px;
     background-color: #f8f5f2;
     position: relative;
     display: flex;
