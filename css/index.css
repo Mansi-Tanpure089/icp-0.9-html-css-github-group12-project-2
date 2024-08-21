@@ -36,8 +36,6 @@ body{
     background-color: rgb(236, 211, 177);
     border: 2px solid lightgreen;
     width:95%;
-
-    
 }
 
 .premium:hover{
@@ -73,7 +71,7 @@ body{
  }
 
  .monsoon-product-img{
-     display: flex;
+   display: flex;
     justify-content: center;
     align-items: center;
     height:230px;
@@ -82,14 +80,11 @@ body{
     padding: 10px;
     background-color:  #f3dfd6;
     border: 2px solid slategrey;
-    
-    }
-
-    .monsoon-product-img:hover{
-        box-shadow: 0px 0px 5px 5px lightcoral;
-        border-radius: 18px;
-    }
-
+}
+.monsoon-product-img:hover{
+   box-shadow: 0px 0px 5px 5px lightcoral;
+   border-radius: 18px;
+}
  .text-center{
     align-items:flex-end;
     margin:10px auto;
@@ -168,31 +163,64 @@ body{
 .img{
    height: 170px;
 }
-
-.login-img{
-   heigth:50px;
-   width:70px;
-   padding:20px;
-    margin:30px auto;
-    align-items: center;
-    justify-content:center;
-    background-color: rgb(236, 211, 177);
-    border: 2px solid lightgreen;
-    display:flex;
-
-}
-.login-img:hover{
-   
-   box-shadow: 0px 0px 5px 5px lightcoral;
-        border-radius: 18px;
-}
-
-
-
 .product1-img{
    color: lightpink;
    background-color: aliceblue;
    height:60px;
    width:80%;
    justify-content: center;
+}
+
+/* Media query for home page */
+@media screen and (max-width: 400px){
+   .header-section{
+      font-size: 30px;
+   }
+   .sub-title{
+      font-size: 16px;
+      padding: 0px 15px;
+   }
+   .dmart-image{
+      height:230px;
+   }
+  .premium{
+      font-size: 13px;
+   }
+   .image-container{
+      margin:10px auto;
+      padding:7px;
+      width:100%;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+   .product-img{
+      height: 35px;
+      padding: 5px; 
+   }
+   .img-product-name{
+      font-size: 15px;
+   }
+   .monsoon-product-img{
+       height:150px;
+       width:90%;
+   }
+   .fruits-div{
+      width: 90%;
+      height: 250px;
+   }
+   .fruit-img{
+      height: 220px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 100px;
+   }
+   .fruit-name p{
+      display: none;
+   }
+   .img{
+      height: 70px;
+      width: 100px;
+   }
 }
