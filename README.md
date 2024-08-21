@@ -6,6 +6,10 @@ Welcome to the Dmart website project! This is a basic yet comprehensive website 
 
 This project is built using HTML and CSS, offering a visually appealing and user-friendly interface. It is designed to provide an enjoyable browsing experience with a focus on creativity and effective navigation across different sections of the website.
 
+## Homepage
+
+![Dmart Homepage](images/HomepageSS.png)
+
 ## Features
 
 - **Responsive Design:** The website is designed to work seamlessly across different devices, providing a consistent experience on both desktop and mobile.
