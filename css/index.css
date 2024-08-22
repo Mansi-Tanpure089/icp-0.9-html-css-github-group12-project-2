@@ -172,7 +172,7 @@ body{
 }
 
 /* Media query for home page */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 550px){
    .header-section{
       font-size: 30px;
    }
@@ -215,6 +215,7 @@ body{
    .fruit-name{
       width: 100%;
       height: 100px;
+      text-align: center;
    }
    .fruit-name p{
       display: none;
@@ -225,7 +226,7 @@ body{
    }
 }
 
-@media screen and (min-width: 401px) and (max-width: 800px){
+@media screen and (min-width: 551px) and (max-width: 950px){
    .header-section{
       font-size: 30px;
    }
@@ -234,7 +235,7 @@ body{
       padding: 0px 15px;
    }
    .dmart-image{
-      height:230px;
+      height:260px;
    }
   .premium{
       font-size: 13px;
@@ -277,5 +278,86 @@ body{
    .img{
       height: 70px;
       width: 100px;
+   }
+}
+
+@media screen and (min-width: 951px) and (max-width: 1300px){
+   .header-section{
+      font-size: 35px;
+   }
+   .sub-title{
+      font-size: 17px;
+      padding: 0px 15px;
+   }
+   .dmart-image{
+      height:350px;
+      width: 98%;
+   }
+  .premium{
+      font-size: 15px;
+      width:100%;
+   }
+   .image-container{
+      margin:10px auto;
+      padding:7px;
+      width:100%;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+   .product-img{
+      height: 45px;
+      padding: 10px; 
+   }
+   .img-product-name{
+      font-size: 16px;
+   }
+   .monsoon-product-img{
+       height:170px;
+       width:90%;
+   }
+   .fruits-div{
+      width: 90%;
+      height: 300px;
+   }
+   .fruit-img{
+      height: 250px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 130px;
+   }
+   .fruit-name p{
+      display: flex;
+      font-size: 22px;
+      padding: 5px;
+   }
+   .img{
+      height: 110px;
+      width: 150px;
+   }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1300px){
+   .fruits-div{
+      width: 90%;
+      height: 350px;
+   }
+   .fruit-img{
+      height: 280px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 160px;
+   }
+   .fruit-name p{
+      display: flex;
+      font-size: 25px;
+      padding: 5px;
+   }
+   .img{
+      height: 140px;
+      width: 180px;
    }
 }

@@ -504,7 +504,8 @@ footer{
 
 @media screen and (max-width: 400px){
     .our-team-container{
-        height: 2400px;
+        height: auto;
+        padding-bottom: 20px;
     }
     .our-team-container h1{
         font-size: 25px;
@@ -553,7 +554,7 @@ footer{
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 800px){
+@media screen and (min-width: 401px) and (max-width: 900px){
     .our-team-container{
         padding-bottom: 30px;
         height: auto
