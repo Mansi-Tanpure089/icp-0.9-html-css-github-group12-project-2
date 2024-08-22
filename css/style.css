@@ -551,5 +551,55 @@ footer{
         font-size: 13px;
         text-align: center;
     }
-    
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+    .our-team-container{
+        padding-bottom: 30px;
+        height: auto
+    }
+    .our-team-container h1{
+        font-size: 25px;
+    }
+    footer{
+        margin-top: 30px;
+        height: auto;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-download{
+        width: 100%;
+        margin: 40px;
+    }
+    .app-download p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .download-app-btn{
+        display: flex;
+        gap: 20px;
+    }
+    .download{
+        font-size: 14px;
+    }
+    .download img{
+        width: 16px;
+        height: 16px;
+    }
+    .options-section{
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 30px;
+        margin-left: 20px;
+    }
+    .copyright{
+        padding: 10px;
+        margin: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
 }
