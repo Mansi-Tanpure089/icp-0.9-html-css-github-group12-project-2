@@ -224,3 +224,58 @@ body{
       width: 100px;
    }
 }
+
+@media screen and (min-width: 401px) and (max-width: 800px){
+   .header-section{
+      font-size: 30px;
+   }
+   .sub-title{
+      font-size: 16px;
+      padding: 0px 15px;
+   }
+   .dmart-image{
+      height:230px;
+   }
+  .premium{
+      font-size: 13px;
+   }
+   .image-container{
+      margin:10px auto;
+      padding:7px;
+      width:100%;
+      gap: 30px;
+      flex-wrap: wrap;
+   }
+   .product-img{
+      height: 35px;
+      padding: 5px; 
+   }
+   .img-product-name{
+      font-size: 15px;
+   }
+   .monsoon-product-img{
+       height:150px;
+       width:90%;
+   }
+   .fruits-div{
+      width: 90%;
+      height: 250px;
+   }
+   .fruit-img{
+      height: 220px;
+      width: 100%;
+   }
+   .fruit-name{
+      width: 100%;
+      height: 100px;
+   }
+   .fruit-name p{
+      display: flex;
+      font-size: 18px;
+      padding: 5px;
+   }
+   .img{
+      height: 70px;
+      width: 100px;
+   }
+}
