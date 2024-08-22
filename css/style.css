@@ -604,3 +604,48 @@ footer{
         text-align: center;
     }
 }
+
+@media screen and (min-width: 901px) and (max-width: 1300px){
+    .our-team-container{
+        padding-bottom: 30px;
+        height: auto
+    }
+    .our-team-container h1{
+        font-size: 28px;
+    }
+    footer{
+        margin-top: 30px;
+        height: auto;
+    }
+    .footer-section{
+        display: flex;
+        width: 100%;
+    }
+    .app-download{
+        width: 40%;
+        margin: 40px 30px;
+    }
+    .app-download p{        
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .download-app-btn{
+        display: flex;
+        gap: 20px;
+    }
+    .download{
+        font-size: 15px;
+    }
+    .download img{
+        width: 16px;
+        height: 16px;
+    }
+    .options-section{
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 30px;
+        margin-left: 20px;
+    }
+}
