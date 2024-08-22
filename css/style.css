@@ -430,3 +430,222 @@ footer{
 .p-cart:hover {
     box-shadow:0px 0px 5px 5px #f3dfd6 ;
 }
+
+.our-team-container{
+    height: 600px;
+    width: 100%;
+    background-color: #fffffe;
+    margin: 5px auto;
+}
+.our-team-container h1{
+    font-size: 32px;
+    color: #232323;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.our-team{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+.team-card{
+    height: 200px;
+    width: 180px;
+    background-color: #f8f5f2;
+    border: 1px solid #232323;
+    border-radius: 5px;
+}
+.team-card:hover{
+    box-shadow: 0px 0px 5px 5px #f3dfd6;
+}
+.team-img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.team-img img{
+    height: 90px;
+    border-radius: 50%;
+}
+.team-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.team-name{
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+    color: #232323;
+}
+.team-member{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #6b6b6b;
+}
+.social-media-sites{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.social-media-sites a{
+    text-decoration: none;
+}
+.social-media-sites img{
+    height: 18px;
+}
+
+@media screen and (max-width: 400px){
+    .our-team-container{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .our-team-container h1{
+        font-size: 25px;
+    }
+    footer{
+        margin-top: 30px;
+        height: 600px;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-download{
+        width: 100%;
+        margin: 30px;
+    }
+    .app-download p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .download-app-btn{
+        display: flex;
+        gap: 20px;
+    }
+    .download{
+        font-size: 14px;
+    }
+    .download img{
+        width: 16px;
+        height: 16px;
+    }
+    .options-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 30px;
+        margin-left: 50px;
+    }
+    .copyright{
+        padding: 5px;
+        margin: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 900px){
+    .our-team-container{
+        padding-bottom: 30px;
+        height: auto
+    }
+    .our-team-container h1{
+        font-size: 25px;
+    }
+    footer{
+        margin-top: 30px;
+        height: auto;
+    }
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-download{
+        width: 100%;
+        margin: 40px;
+    }
+    .app-download p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .download-app-btn{
+        display: flex;
+        gap: 20px;
+    }
+    .download{
+        font-size: 14px;
+    }
+    .download img{
+        width: 16px;
+        height: 16px;
+    }
+    .options-section{
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 30px;
+        margin-left: 20px;
+    }
+    .copyright{
+        padding: 10px;
+        margin: 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1300px){
+    .our-team-container{
+        padding-bottom: 30px;
+        height: auto
+    }
+    .our-team-container h1{
+        font-size: 28px;
+    }
+    footer{
+        margin-top: 30px;
+        height: auto;
+    }
+    .footer-section{
+        display: flex;
+        width: 100%;
+    }
+    .app-download{
+        width: 40%;
+        margin: 40px 30px;
+    }
+    .app-download p{        
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .download-app-btn{
+        display: flex;
+        gap: 20px;
+    }
+    .download{
+        font-size: 15px;
+    }
+    .download img{
+        width: 16px;
+        height: 16px;
+    }
+    .options-section{
+        display: flex;
+        justify-content: center; 
+        margin-top: 20px;
+        margin-bottom: 20px;
+        gap: 30px;
+        margin-left: 20px;
+    }
+}
